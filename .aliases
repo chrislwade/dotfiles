@@ -152,3 +152,6 @@ alias reload="exec $SHELL -l"
 
 # I prefer 'll' for detailed directory listing, also drop '-F' (use the 'l' alias if you want that)
 alias ll="ls -l ${colorflag}"
+
+# Completely update homebrew in one command, cleaning up afterward
+alias brewup="brew update && brew upgrade && brew cleanup"

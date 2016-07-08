@@ -149,3 +149,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# I prefer 'll' for detailed directory listing, also drop '-F' (use the 'l' alias if you want that)
+alias ll="ls -l ${colorflag}"
